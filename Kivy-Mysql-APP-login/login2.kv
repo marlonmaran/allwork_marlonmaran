@@ -1,0 +1,32 @@
+MDScreen:
+    name: "login2"
+    MDFloatLayout:
+        md_bg_color: 41/255, 135/255, 168/255, 1
+
+        Image:
+            sourse: "KnowInsade/lobo2.png"
+            size_hint: .26, .26
+            pos_hint: {"center_x":.5,"center_y": .55}
+            canvas.before:
+                Color:
+                    rgb: 1,1,1,1
+                Ellipse:
+                    size: 130,130
+                    pos: 110, 250
+        MDLabel:
+            text:"LARM182xxxxxx"
+            pos_hint: {"center_x": .8, "center_y": .2}
+            hating: "center"
+            theme_text_color:"Custom"
+            text_color: 1,1,1,1
+            font_size: "38sp"
+            fort_name: "Popping-SemiBold.ttf"
+
+        MDLabel:
+            text:"Soluciones completas"
+            pos_hint: {"center_x": .8, "center_y": .15}
+            hating: "center"
+            theme_text_color:"Custom"
+            text_color: 1,1,1,1
+            font_size: "13sp"
+            fort_name: "Popping-Regular.ttf"
